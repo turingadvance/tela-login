@@ -29,17 +29,19 @@
     }
     
     section#login {
-        width: 970px;
+        width: 950px;
     }
     
     section#login > div#imagem{
+        display: block;
         float: right;
-        width: 40%;
+        width: 60%;
         height: 100%;
     }
 
-    section#login > div#fomulario{
+    section#login > div#formulario{
+        display: block;
         float: left;
-        height: 100%;
+        width: 40%; 
     }
 }
